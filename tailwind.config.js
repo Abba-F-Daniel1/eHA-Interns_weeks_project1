@@ -1,5 +1,5 @@
 export default {
-  purge: ['./src/**/*.{js,ts,jsx,tsx}', './public/index.html'],
+  content: ['./src/**/*.{js,ts,jsx,tsx}', './public/index.html'],
   darkMode: false,
   theme: {
     extend: {},
