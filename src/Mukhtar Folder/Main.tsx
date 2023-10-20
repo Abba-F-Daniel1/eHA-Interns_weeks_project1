@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, About, MySkill, FormInput } from "./components";
+import { Navbar, About, MySkill, FormInput, Footer } from "./components";
 
 
 
@@ -10,6 +10,7 @@ const Main: React.FC =()=>{
       <About  />
       <MySkill />
       <FormInput/>
+      <Footer/>
     </div>
   )
 }

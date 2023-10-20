@@ -5,7 +5,7 @@ import "./App.css";
 
 const App: React.FC =()=>{
   return(
-    <div className="h-screen">
+    <div className="w-full h-screen">
      <Main/>
     </div>
   )
