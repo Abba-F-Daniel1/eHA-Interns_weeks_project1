@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import AbbaPortfolio from "./Abba Folder/AbbaPortfolio";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Main from "./Mukhtar Folder/Main";
 import "./App.css";
 
 const App: React.FC = () => {
@@ -11,8 +12,10 @@ const App: React.FC = () => {
           <Route path="/" element={<HomeButton />} />
           <Route path="/abba-portfolio" element={<AbbaPortfolio />} />
         </Routes>
+        <Main/>
       </div>
     </Router>
+  
   );
 };
 
@@ -29,5 +32,6 @@ const HomeButton: React.FC = () => {
     </Link>
   );
 };
+
 
 export default App;
